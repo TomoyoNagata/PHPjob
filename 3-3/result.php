@@ -1,32 +1,36 @@
 <?php
 
 //$get_number = $_POST['number']
+$number = $_POST['number'];
+$num = str_split($number);
+$r = array_rand($num);
 
-$fortune = mt_rand(0,9);
+
+//$fortune = mt_rand(0,9);
 
 echo date("Y/m/d");
 echo "の運勢は". '<br>';
-echo "選ばれた数字は". $fortune. '<br>';
+echo "選ばれた数字は". $r. '<br>';
 
-if($fortune == 0){
+if($r == 0){
     echo "凶";
-} elseif($fortune == 1){
+} elseif($r == 1){
     echo "小吉";
-} elseif($fortune == 2){
+} elseif($r == 2){
     echo "小吉";
-} elseif($fortune == 3){
+} elseif($r == 3){
     echo "小吉";
-} elseif($fortune == 4){
+} elseif($r == 4){
     echo "中吉";
-} elseif($fortune == 5){
+} elseif($r == 5){
     echo "中吉";
-} elseif($fortune == 6){
+} elseif($r == 6){
     echo "中吉";
-} elseif($fortune == 7){
+} elseif($r == 7){
     echo "吉";
-} elseif($fortune == 8){
+} elseif($r == 8){
     echo "吉";
-} elseif($fortune == 9){
+} elseif($r == 9){
     echo "大吉";
 }
 
