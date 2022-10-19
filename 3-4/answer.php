@@ -19,7 +19,6 @@ function result($your_ans, $ans){
     }
     echo $result;
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -38,12 +37,15 @@ function result($your_ans, $ans){
 <?php 
 result($your_ans1, $q1ans)
 ?>
-
 <p>②の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-
+<?php 
+result($your_ans2, $q2ans)
+?>
 <p>③の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-
+<?php 
+result($your_ans3, $q3ans)
+?>
 </body>
 </html>

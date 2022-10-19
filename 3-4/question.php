@@ -31,7 +31,7 @@ $q3ans = $q3[1];
 <form action="answer.php" method="post">
 <?php
     foreach ($q1 as $value) { ?>
-        <input type="radio" name="your_ans1" value="your_ans1">
+        <input type="radio" name="your_ans1" value=<?php echo $value;?>>
         <?php echo $value;
     }
 ?>
@@ -39,14 +39,14 @@ $q3ans = $q3[1];
 <!--③ 問題のradioボタンを「foreach」を使って作成する-->
 <?php
     foreach ($q2 as $value) { ?>
-        <input type="radio" name="your_ans2" value="your_ans2">
+        <input type="radio" name="your_ans2" value=<?php echo $value;?>>
         <?php echo $value;
     }?>
 <h2>③MySQLで情報を取得するためのコマンドは？</h2>
 <!--③ 問題のradioボタンを「foreach」を使って作成する-->
 <?php
     foreach ($q3 as $value) { ?>
-        <input type="radio" name="your_ans3" value="your_ans3">
+        <input type="radio" name="your_ans3" value=<?php echo $value;?>>
         <?php echo $value;
     }
 ?>
