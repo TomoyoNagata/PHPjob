@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+}
+
+.header {
+    width: 1000px;
+    height: 120px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+    background-color: #add8e6;
+    float: left;
+}
+
+.logo img {
+    width: 200px;
+    height: 120px;
+
+}
+
+.user_name{
+    width: 800px;
+    height: 60px;
+    background-color: #87ceeb;
+    float: left;
+}
+
+.p_username {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lastlogin{
+    width: 800px;
+    height: 60px;
+    background-color: #00ffff;
+    float: left;
+}
+
+.p_lastlogin {
+    display: flex;
+    justify-content: flex-end;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline {
+    background-color: #87ceeb;
+}
+
+.article {
+    background-color: #00ffff;
+}
+
+.footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #00ced1;
+    margin-top: 10px;
+}
+
+
