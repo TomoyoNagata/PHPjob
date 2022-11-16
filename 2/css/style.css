@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+    position: relative;
+}
+
+.header_container {
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;  
+}
+
+.header_item {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin: 10px;    
+}
+
+.header_item:nth-child(2) {
+    margin: 10px 0;
+}
+
+.main_container {
+    display: flex; 
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80dfa8;
+}
+
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+}
+
+.right_container {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px 60px 40px 40px;
+}
+
+.main_item {
+    width: 150px;
+    height: 50px;
+    background-color: #ff863f;
+    border: solid 5px white;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;    
+}
+
+
+@media screen and (max-width: 479px) {
+    .header {
+        max-width: 200px;
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header_container {
+        display: block;
+        max-width: 60px;
+        width: 100%;
+        height: 160px;
+        position: absolute;
+        top: 20px;
+        right: 70px;   
+    }
+
+    .main {
+        max-width: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main_container {
+        max-width: 200px;
+        width: 100%;
+        height: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+    }
+
+    .left {
+        max-width: 200px;
+        width: 100%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: bottom;
+    }
+
+    .right {
+        max-width: 200px;
+        width: 100%;
+        height: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 300px;
+    }
+
+    .right_container {
+        margin-left: auto;
+        margin-right: auto;
+        margin: 20px 30px 20px 30px;
+    }
+
+    .main_item {
+        width: 140px;
+    }
+
+    .footer {
+        max-width: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
