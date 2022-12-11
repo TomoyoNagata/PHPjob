@@ -1,0 +1,190 @@
+
+
+body {
+    width: 1000px;
+}
+
+.sign_h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+    
+.sign_name {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.sign_pass {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.sign_btn {
+    color: white;
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    background: #1A77F2;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.login_name {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.login_pass {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.login_btn {
+        color: white;
+        width: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #68779a;
+        background: #1A77F2;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+}
+
+.login_h2 {
+    display: inline;
+}
+
+.login_btn2 {
+    color: white;
+        width: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #68779a;
+        background: #009094;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+}
+
+.logout_btn {
+    color: white;
+        width: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #68779a;
+        background: #1A77F2;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+}
+
+.title {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.date {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.input_btn {
+    color: white;
+        width: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #68779a;
+        background: #1A77F2;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+}
+
+.select_btn {
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.main_btn {
+    color: white;
+        width: 100px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #68779a;
+        background: #1A77F2;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+}
+
+.main_btn2 {
+    color: white;
+    width: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    background: gray;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.delete_btn {
+    color: white;
+    width: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    background: red;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+  }
+
+td {
+    width: 150px;
+    text-align: center;
+}
+
+.headline {
+    height: 60px;
+    background-color: lightgray;
+}
