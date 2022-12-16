@@ -37,4 +37,9 @@ class PostController extends Controller
 
         return redirect('post/create');
     }
+
+    public function __construct()
+    {
+       $this->middleware('auth');
+    }
 }
