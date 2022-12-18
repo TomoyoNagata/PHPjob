@@ -19,23 +19,23 @@
     </div>
     <button class="click">クリック</button> 
     <script>
-        let wide = $(".left").width();
+        var wide = $(".left").width();
         console.log(wide);
         $('button').click(function(){
             console.log('クリック確認！');
             $(this).toggleClass("active");
             var flg = $(this).hasClass("active");
             if(flg == true){
-                onFunction();
+                onFunc();
             } else {
-                offFunction();
+                offFunc();
             }
-            function onFunction(){
-                $("#check").text("");
+            function onFunc(){
+                $("#check").text("ONの処理");
                 $(".left").animate({width:'0%'},2000);
                 $(".right").animate({width:'0%'},2000);
-            } function offFunction(){
-                $("#check").text("");
+            } function offFunc(){
+                $("#check").text("OFFの処理");
                 $(".left").animate({width:'50%'},2000);
                 $(".right").animate({width:'50%'},2000);
             }
