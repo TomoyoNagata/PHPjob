@@ -19,27 +19,9 @@
     </div>
     <button class="click">クリック</button> 
     <script>
-        let wide = $(".left").width();
-        console.log(wide);
         $('button').click(function(){
-            console.log('');
-            $(this).toggleClass("active");
-            var flg = $(this).hasClass("active");
-            if(flg == true){
-                onFunction();
-            } else {
-                offFunction();
-            }
-            function onFunction(){
-                $("#check").text("");
-                $(".left").animate({width:'0%'},2000);
-                $(".right").animate({width:'0%'},2000);
-            } function offFunction(){
-                $("#check").text("");
-                $(".left").animate({width:'50%'},2000);
-                $(".right").animate({width:'50%'},2000);
-            }
-        }) == $0
+            $('.left,.right').toggleClass("action");
+        })
     </script>
   </body>
 </html>

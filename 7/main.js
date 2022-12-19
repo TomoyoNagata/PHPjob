@@ -1,4 +1,5 @@
 let numbers = [2, 5, 12, 13, 15, 18, 22];
+
 //ここに答えを実装してください。↓↓↓
 function isEven(num) {
     for(let i = 0; i < num.length; i ++){
@@ -8,7 +9,7 @@ function isEven(num) {
     }
 }
 
-isEven();
+isEven(numbers);
 
 //インスタンス化した時にガソリンとナンバーがセットされるようなCarクラスを作成する
 //ガソリンは〇〇です。ナンバーは△△です」と出力される「getNumGas」という関数を作成する
